@@ -12,6 +12,8 @@ Sortie attendue:
  */
 
 function getPositiveNumbers(numbers) {
+  const newTab = numbers.filter(number => number>=0)
+  return newTab
 }
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,

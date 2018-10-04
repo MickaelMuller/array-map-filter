@@ -16,6 +16,8 @@ Exemple d'entrée:
  */
 
 function getMultiplesOf(numbers, n) {
+  const newarr = numbers.filter(number => number%n==0)
+  return newarr
 }
 
 // Ne pas modifier l'export
